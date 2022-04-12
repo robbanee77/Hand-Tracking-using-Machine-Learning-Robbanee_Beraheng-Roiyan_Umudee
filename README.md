@@ -1,6 +1,9 @@
 # Introduction
 In this deep learning project, we will learn how to recognize the human faces in live video with Python. We will build this project using python dlib’s facial recognition network. Dlib is a general-purpose software library. Using dlib toolkit, we can make real-world machine learning applications.
-# Working of ANTICIPATING AN ACCIDENT
+# Project Prerequisites:
+You need to install the dlib library and face_recognition API from PyPI:
+- pip3 install dlib 
+- pip3 install face_recognition
 # Problem Statement
 # Requirements :
 Jupyter Notebook
