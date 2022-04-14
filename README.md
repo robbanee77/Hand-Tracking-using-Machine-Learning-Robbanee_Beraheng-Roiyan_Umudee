@@ -4,15 +4,11 @@ It is an application of computer vision, object detection in various key positio
 You need to install the dlib library and face_recognition API from PyPI:
 - pip install opencv-python
 - pip install mediapipe
-# Steps to implement Face Recognition
-We will build this python project in two parts. We will build two different python files for these two parts:
-- embedding.py:
+# Application
+Hand Tracking is used to track location. and understand gestures which can be applied to create programs that accept user input by doing hand gestures Such as swiping hands, making ok symbols, pressing likes, pressing dislike to connect to the next command.
 
-First, create a file embedding.py in your working directory. In this file, we will create face embeddings of a particular human face. We make face embeddings using face_recognition.face_encodings method. These face embeddings are a 128 dimensional vector. In this vector space, different vectors of same person images are near to each other. After making face embedding, we will store them in a pickle file.
-
--  recognition.py:
-
-Here we will again create person’s embeddings from the camera frame. Then, we will match the new embeddings with stored embeddings from the pickle file. The new embeddings of same person will be close to its embeddings into the vector space. And hence we will be able to recognize the person.
+# Preliminary work
+Hand Tracking starts with detecting the palm with the Palm Detection Model and then identifies 21 key hand positions through a program called Hand Landmark Model that simulates hand gestures from the incoming image detection.
 
 # Requirements :
 Jupyter Notebook
