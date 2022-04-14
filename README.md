@@ -1,5 +1,5 @@
 # Introduction
-In this deep learning project, we will learn how to recognize the human faces in live video with Python. We will build this project using python dlib’s facial recognition network. Dlib is a general-purpose software library. Using dlib toolkit, we can make real-world machine learning applications.
+It is an application of computer vision, object detection in various key positions of the hand to detect and track the position and gesture of the hand. This is the same way that Face Mesh works or a program used to detect and track faces.
 # Project Prerequisites:
 You need to install the dlib library and face_recognition API from PyPI:
 - pip install opencv-python
