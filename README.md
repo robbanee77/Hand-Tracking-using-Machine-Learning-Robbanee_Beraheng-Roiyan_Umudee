@@ -8,6 +8,21 @@ You need to install the dlib library and face_recognition API from PyPI:
 # Preliminary work
 Hand Tracking starts with detecting the palm with the Palm Detection Model and then identifies 21 key hand positions through a program called Hand Landmark Model that simulates hand gestures from the incoming image detection.
 
+# Step to do
+- download tool
+- import tools
+- Identify the camera
+- get data from camera
+- video display
+- Hand data and hand detection commands
+- convert color system
+- hand detection in the figure
+- hand position
+- hand detection in video
+- show results
+- Specify the location of a landmark
+- Landmark location display via webcam
+
 # Requirements :
 Jupyter Notebook
 # Importing the Libraries :
